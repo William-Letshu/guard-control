@@ -1,6 +1,6 @@
 # 🔐 **Guard Control** – Identity & Access Management System
 
-**Guard Control** is a robust and scalable **Identity and Access Management (IAM)** system built using **Spring Boot**, **GraphQL**, and **PostgreSQL**. It enables secure user authentication, role-based access control, and fine-grained permission management, making it suitable for microservices, SaaS platforms, or internal enterprise applications.
+**Guard Control** is a robust and scalable **Identity and Access Management (IAM)** system built using **Spring Boot**, **REST**, and **PostgreSQL**. It enables secure user authentication, role-based access control, and fine-grained permission management, making it suitable for microservices, SaaS platforms, or internal enterprise applications.
 
 ---
 
@@ -18,10 +18,10 @@
 
 ## Tech Stack
 
-* **Backend:** Spring Boot, Spring Security, Spring GraphQL
+* **Backend:** Spring Boot, Spring Security
 * **Database:** PostgreSQL + Flyway
 * **Auth:** JWT (JSON Web Tokens)
-* **API Interface:** GraphQL (Query, Mutation, Context)
+* **API Interface:** REST CRUD API
 * **Build Tool:** Maven
 
 ---
